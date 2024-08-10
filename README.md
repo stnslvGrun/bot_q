@@ -7,7 +7,7 @@ bot.db содержит две таблицы:
    - "вопросы ответы"  
    - "ответы пользователя"  
 
-index.py  
+#### index.py  
    get_user_data(user_id):  
       - запрос строки из TABLE_UA по user_id. Возвращает list  
 
@@ -50,7 +50,7 @@ index.py
 
 
 
-create-table.py  
+#### create-table.py  
    create_table(self,table_name: str,fields: str):  
       - создаёт таблицу в db  
 
@@ -110,7 +110,7 @@ create-table.py
       - точка входа  
 
 
-Как использовать  
+### Как использовать  
 !!! logger установлен в WARNING  
 - Настроить переменные в файле var.py  
 - Запустить скрипт asyncio.run в файле create-table.py, если оставить, таблицы будут обновляться  
